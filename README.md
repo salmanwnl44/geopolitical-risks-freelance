@@ -1,4 +1,3 @@
-...existing code...
 # Geopolitical Risks — Freelance
 
 A small demo project that generates synthetic geopolitical-event data, trains a regression model to predict business revenue loss, and provides a simple inference script.
@@ -65,4 +64,5 @@ Notes
 - Categorical encoders are persisted so inference uses the same mappings as training (see [`scripts.Train.label_encoders`](scripts/Train.py) and [`scripts.predict.encode_value`](scripts/predict.py)).
 - Use [Both.py](Both.py) for a compact example combining encoding, training and a sample prediction.
 - This workspace is intended as a minimal demo; customize features, model hyperparameters, and evaluation protocols as needed.
+
 
